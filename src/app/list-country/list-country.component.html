@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let country of countryList"
+      (click)="onSelect(country)">
+    {{ country.name }}
+  </li>
+</ul>
+
+<div *ngIf="selectedCountry">Selected language: {{selectedCountry}}</div>
