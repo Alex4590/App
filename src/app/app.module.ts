@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { HeroDetailComponent, HeroesComponent, MessagesComponent } from './components/';
 import { HeroService, MessagesService } from './services/';
+import { HeroDetailComponent, HeroesComponent, MessagesComponent, DashboardComponent, HeroSearchComponent } from './components/';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,8 @@ import { HeroService, MessagesService } from './services/';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    DashboardComponent,
+    HeroSearchComponent,
   ],
   imports: [
     BrowserModule,
